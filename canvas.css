@@ -1,0 +1,7 @@
+#artBoard{
+    background-color: aquamarine;
+    border: 1px solid orange;
+    border-radius: 5px;
+    box-shadow: 10px 10px rgba(150, 150, 150, 0.2);
+
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>HTML5 Form</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+</head>
+<body>
+    <h1>New Form Elements</h1>
+    <form>
+    <div>
+            <label>First Name: </label>
+            <input type="text" placeholder="Your first name" required autocomplete="name">
+    </div>
+    <div>
+            <label>Last Name: </label>
+            <input type="text" placeholder="Your Last name" required>
+    </div>
+    <div>
+        <label>DoB:</label>
+        <input type="date">
+    </div>
+    <div>
+        <label>Email:</label>
+        <input type="email">
+    </div>
+    <div>
+        <label>Telephone</label>
+        <input type="tel">
+    </div>
+    <div>
+        <label>Age:</label>
+        <input type="number">
+    </div>
+    <div>
+        <label>Rate Your Skills</label>
+        <br>
+        <input type="range" min="5" max="10">
+    </div>
+    <div>
+        <label>Book your date</label>
+        <input type="date" min="2018-07-05" step="7">
+    </div>
+    <div>
+        <label>Color</label>
+        <input type="color">
+    </div>
+    <div>
+        <label>Progress</label>
+        <progress value="2" max="10" min="0"></progress>
+    </div>
+    <div>
+        <label>Select the score</label>
+        <input type="number" list="score">
+        <datalist id="score"></datalist>
+    </div>
+    <button>Submit</button>
+    </form>
+    </body>
+</html>

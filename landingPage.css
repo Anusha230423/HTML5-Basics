@@ -1,0 +1,81 @@
+
+body{
+    font-family:cursive;
+}
+
+.logo{
+    width: 250px;
+    float: left;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.allMenu{
+    list-style: none;
+    float: right;
+}
+
+.eachMenu{
+    display: inline;
+    color:black;
+    font-size: 140%;
+    margin-left:35px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-right: 30px;
+     background-color:aqua;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 15px;
+    position: relative; 
+
+    
+    
+}
+
+.eachMenu:hover{
+    color:goldenrod;
+    border-bottom: 1px solid goldenrod;
+    transition: all 0.3s ease-in;
+    padding-bottom: 6px;
+}
+
+header{
+    background-image: url("background-img_02.v3.png");
+   
+    height: 100vh;
+    background-position: center;
+}
+
+.mainMessage{
+    color:aqua;
+    top:50%;
+    position: absolute;
+    left: 3%;
+    font-size: 40px;
+    
+}
+
+.buttonContainer{
+    margin-top: 15px;
+}
+
+.button{
+    text-decoration: none;
+    margin-right: 15px;
+    background-color: black;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 15px;
+    position: relative;
+    color: aliceblue;
+
+}
+
+.button:hover{
+    color: goldenrod;
+    transition:all 0.3s ease-out;
+    background-color: aqua;
+    padding-left: 6px;
+    padding-right: 10px;
+}

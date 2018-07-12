@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HTML5 Audio representation</title>
+</head>
+<body>
+    <h1 id="heading2">My Audio</h1>
+    <audio id="myvideo" width="320"controls autoplay muted>
+            <source src="horse.ogg" type="audio/ogg">
+    
+    </audio>
+        <br>
+        <button id="playButton" onclick="playMe()" >Play</button>
+    
+    
+        <button id="pauseButton" onclick="pauseMe()">Pause</button>
+    
+    
+        <script>
+            var vidref = document.getElementById("myvideo")
+            var playBtnref = document.getElementById("playButton")
+            var pauseBtnref = document.getElementById("pauseButton")
+    
+            function playMe(){
+                vidref.play()
+               // playBtnref.setAttribute("style","color:pink")
+                playBtnref.disabled = "true"
+                pauseBtnref.removeAttribute("disabled")
+            }
+    
+            function pauseMe(){
+                vidref.pause()
+                pauseBtnref.setAttribute("disabled",true)
+                pauseBtnref.disabled = "true"
+                playBtnref.removeAttribute("disabled")
+            }
+        </script>
+    
+    
+</body>
+</html>

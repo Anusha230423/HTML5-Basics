@@ -1,0 +1,29 @@
+h1, p{
+    color: red;
+}
+
+ul{
+    color: purple;
+}
+
+.myClass{
+    background-color: palegreen;
+    text-shadow: 1px 1px gray;
+}
+
+#div1{
+    font-size: 15px;
+}
+
+a{
+    color: green;
+    text-decoration: none;
+}
+
+a:hover{
+    color: aquamarine;
+}
+
+a:visited{
+    color: gray;
+}
